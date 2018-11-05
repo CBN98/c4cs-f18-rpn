@@ -15,6 +15,8 @@ def calculate(arg):
 
     #process tokens
     for token in arg.split():
+        if token == 'q':
+            quit()
         try:
             token = int(token)
             stack.append(token)
