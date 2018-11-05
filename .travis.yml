@@ -3,6 +3,7 @@ python:
   - "3.5"
 install:
   - pip install coverage
+  - pip install colorama
 script:
   - python3 -m unittest
   - coverage run test_rpn.py
